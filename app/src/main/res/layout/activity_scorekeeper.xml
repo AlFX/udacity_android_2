@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alessio.project2.Scorekeeper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:padding="14dp"
+                android:text="Chest"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/LeftTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/LeftTopBtn"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="increment"
+                android:padding="28dp"
+                android:text="Barbell bench press\n4x10"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/LeftCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/LeftCenterBtn"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="increment"
+                android:padding="28dp"
+                android:text="Incline dumbell press\n4x10"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/LeftBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/LeftBottomBtn"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="increment"
+                android:padding="28dp"
+                android:text="Pec Deck Press\n4x10"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/LeftReset"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="reset"
+                android:padding="28dp"
+                android:text="Workout over, reset!"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:padding="14dp"
+                android:text="Chest"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/RightTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/RightTopBtn"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="increment"
+                android:padding="28dp"
+                android:text="Barbell curl\n4x10"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/RightCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/RightCenterBtn"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="increment"
+                android:padding="28dp"
+                android:text="Standing cable curl\n4x10"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/RightBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="100sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/RightBottomBtn"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="increment"
+                android:padding="28dp"
+                android:text="Concentration curl\n4x10"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/RightReset"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="reset"
+                android:padding="28dp"
+                android:text="Workout over, reset!"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
