@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
         android:baselineAligned="false"
         android:orientation="horizontal">
 
@@ -31,72 +32,38 @@
 
             <TextView
                 android:id="@+id/LeftTop"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
-                android:textSize="100sp"
-                android:textStyle="bold" />
+                style="@style/counter" />
 
             <Button
                 android:id="@+id/LeftTopBtn"
+                style="@style/increment_button"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:onClick="increment"
-                android:padding="28dp"
-                android:text="Barbell bench press\n4x10"
-                android:textAlignment="center"
-                android:textSize="14sp" />
+                android:text="Barbell bench press\n4x10" />
 
             <TextView
                 android:id="@+id/LeftCenter"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
-                android:textSize="100sp"
-                android:textStyle="bold" />
+                style="@style/counter" />
 
             <Button
                 android:id="@+id/LeftCenterBtn"
+                style="@style/increment_button"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:onClick="increment"
-                android:padding="28dp"
-                android:text="Incline dumbell press\n4x10"
-                android:textAlignment="center"
-                android:textSize="14sp" />
+                android:text="Incline dumbell press\n4x10" />
 
             <TextView
                 android:id="@+id/LeftBottom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
-                android:textSize="100sp"
-                android:textStyle="bold" />
+                style="@style/counter" />
 
             <Button
                 android:id="@+id/LeftBottomBtn"
+                style="@style/increment_button"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:onClick="increment"
-                android:padding="28dp"
-                android:text="Pec Deck Press\n4x10"
-                android:textAlignment="center"
-                android:textSize="14sp" />
+                android:text="Pec Deck Press\n4x10" />
 
             <Button
                 android:id="@+id/LeftReset"
-                android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:onClick="reset"
-                android:padding="28dp"
-                android:text="Workout over, reset!"
-                android:textColor="@color/colorAccent" />
+                style="@style/reset_button"
+                android:layout_width="match_parent" />
 
         </LinearLayout>
 
@@ -118,72 +85,38 @@
 
             <TextView
                 android:id="@+id/RightTop"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
-                android:textSize="100sp"
-                android:textStyle="bold" />
+                style="@style/counter" />
 
             <Button
                 android:id="@+id/RightTopBtn"
+                style="@style/increment_button"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:onClick="increment"
-                android:padding="28dp"
-                android:text="Barbell curl\n4x10"
-                android:textAlignment="center"
-                android:textSize="14sp" />
+                android:text="Barbell curl\n4x10" />
 
             <TextView
                 android:id="@+id/RightCenter"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
-                android:textSize="100sp"
-                android:textStyle="bold" />
+                style="@style/counter" />
 
             <Button
                 android:id="@+id/RightCenterBtn"
+                style="@style/increment_button"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:onClick="increment"
-                android:padding="28dp"
-                android:text="Standing cable curl\n4x10"
-                android:textAlignment="center"
-                android:textSize="14sp" />
+                android:text="Standing cable curl\n4x10" />
 
             <TextView
                 android:id="@+id/RightBottom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:textAlignment="center"
-                android:textColor="@android:color/black"
-                android:textSize="100sp"
-                android:textStyle="bold" />
+                style="@style/counter" />
 
             <Button
                 android:id="@+id/RightBottomBtn"
+                style="@style/increment_button"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:onClick="increment"
-                android:padding="28dp"
-                android:text="Concentration curl\n4x10"
-                android:textAlignment="center"
-                android:textSize="14sp" />
+                android:text="Concentration curl\n4x10" />
 
             <Button
                 android:id="@+id/RightReset"
-                android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:onClick="reset"
-                android:padding="28dp"
-                android:text="Workout over, reset!"
-                android:textColor="@color/colorAccent" />
+                style="@style/reset_button"
+                android:layout_width="match_parent" />
 
         </LinearLayout>
 

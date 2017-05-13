@@ -13,13 +13,8 @@ public class Scorekeeper extends AppCompatActivity {
         setContentView(R.layout.activity_scorekeeper);
     }
 
-    int repsLT = 0;
-    int repsLC = 0;
-    int repsLB = 0;
-    int repsRT = 0;
-    int repsRC = 0;
-    int repsRB = 0;
-
+    int repsLT, repsLC, repsLB = 0;
+    int repsRT, repsRC, repsRB = 0;
     int iden = 0;
 
     public void increment(View view) {
@@ -60,6 +55,7 @@ public class Scorekeeper extends AppCompatActivity {
     public void reset(View view) {
         switch (view.getId()) {
             case (R.id.LeftReset):
+                repsLT = repsLC = repsLB = 0;
                 iden = R.id.LeftTop;
                 display(0, iden);
                 iden = R.id.LeftCenter;
@@ -68,6 +64,7 @@ public class Scorekeeper extends AppCompatActivity {
                 display(0, iden);
                 break;
             case (R.id.RightReset):
+                repsRT = repsRC = repsRB = 0;
                 iden = R.id.RightTop;
                 display(0, iden);
                 iden = R.id.RightCenter;
