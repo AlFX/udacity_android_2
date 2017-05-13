@@ -9,7 +9,8 @@
     </style>
 
     <style name="increment_button">
-        <item name="android:background">@color/colorPrimaryHalfDark</item>
+        <!--<item name="android:background">@color/colorPrimaryHalfDark</item>-->
+        <item name="android:background">@drawable/round_btn</item>
         <item name="android:textColor">@color/colorPrimaryLight</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textAlignment">center</item>
@@ -17,6 +18,7 @@
         <item name="android:onClick">increment</item>
         <item name="android:layout_margin">2dp</item>
         <item name="android:layout_height">128dp</item>
+        <item name="android:layout_width">128dp</item>
     </style>
 
     <style name="reset_button">
